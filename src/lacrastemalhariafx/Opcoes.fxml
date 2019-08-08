@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.OpcoesController">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.OpcoesController">
    <children>
       <Pane prefHeight="550.0" prefWidth="750.0">
          <children>
@@ -24,12 +21,12 @@
                   <Button fx:id="opcoes1" graphicTextGap="5.0" layoutX="35.0" layoutY="478.0" onAction="#botaoInicial" prefHeight="58.0" prefWidth="69.0" style="-fx-background-radius: 50; -fx-background-color: #cf8fa7;" text=" +&#10;Início" textAlignment="CENTER" textFill="WHITE">
                     
                      <font>
-                        <Font name="DejaVu Serif Bold" size="12.0" />
+                        <Font size="14.0" />
                      </font>
                   </Button>
                </children>
             </Pane>
-            <Button fx:id="funOpcoes" layoutX="275.0" layoutY="268.0" onAction="#menuSenha" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Funcionário" >
+            <Button fx:id="funOpcoes" layoutX="275.0" layoutY="268.0" onAction="#menuSenha" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Funcionário" textFill="WHITE">
                <font>
                   <Font name="DejaVu Serif" size="18.0" />
                </font>

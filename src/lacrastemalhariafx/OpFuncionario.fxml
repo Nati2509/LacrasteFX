@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.OpFuncionarioController">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.OpFuncionarioController">
    <children>
       <Pane prefHeight="550.0" prefWidth="750.0">
          <children>
@@ -27,55 +25,55 @@
                   </ImageView>
                </children>
             </Pane>
-            <Button fx:id="inicFuncio" graphicTextGap="5.0" layoutX="31.0" layoutY="493.0" onAction="#botaoInicial" prefHeight="17.0" prefWidth="69.0" style="-fx-opacity: 30;" text="Início" textAlignment="CENTER" textFill="#140202">
+            <Button fx:id="inicFuncio" graphicTextGap="5.0" layoutX="31.0" layoutY="465.0" onAction="#botaoInicial" prefHeight="58.0" prefWidth="69.0" style="-fx-background-color: #cf8fa7; -fx-background-radius: 50;" text="Início" textAlignment="CENTER" textFill="#f8f5f5">
              
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button fx:id="voltFuncio" graphicTextGap="5.0" layoutX="667.0" layoutY="493.0" onAction="#menuOpcoes" prefHeight="17.0" prefWidth="69.0" style="-fx-opacity: 30;" text="Voltar" textAlignment="CENTER" textFill="#140202">
+            <Button fx:id="voltFuncio" graphicTextGap="5.0" layoutX="667.0" layoutY="465.0" onAction="#menuOpcoes" prefHeight="58.0" prefWidth="69.0" style="-fx-background-radius: 50; -fx-background-color: #cf8fa7;" text="Voltar" textAlignment="CENTER" textFill="#fefefe">
               
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button fx:id="teceFuncio" layoutX="273.0" layoutY="140.0" onAction="#OpcoesTece" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Tecelagem">
+            <Button fx:id="teceFuncio" layoutX="273.0" layoutY="140.0" onAction="#OpcoesTece" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Tecelagem" textFill="WHITE">
               
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="CorteCosFuncio" layoutX="273.0" layoutY="194.0" onAction="#OpcoesCorteCost" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Corte e costura ">
+            <Button fx:id="CorteCosFuncio" layoutX="273.0" layoutY="194.0" onAction="#OpcoesCorteCost" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Corte e costura " textFill="WHITE">
              
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="ManMaqFuncio" layoutX="273.0" layoutY="246.0" onAction="#OpcoesManMaq" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Manutenção de máquina">
+            <Button fx:id="ManMaqFuncio" layoutX="273.0" layoutY="246.0" onAction="#OpcoesManMaq" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Manutenção de máquina" textFill="WHITE">
                
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="ModeFuncio" layoutX="273.0" layoutY="298.0" onAction="#OpcoesMode" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Modelagem">
+            <Button fx:id="ModeFuncio" layoutX="273.0" layoutY="298.0" onAction="#OpcoesMode" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Modelagem" textFill="WHITE">
             
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="EstoqFuncio" layoutX="273.0" layoutY="351.0" onAction="#OpcoesEstoque" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Estoque">
+            <Button fx:id="EstoqFuncio" layoutX="273.0" layoutY="351.0" onAction="#OpcoesEstoque" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Estoque" textFill="WHITE">
                
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="PesModaFuncio" layoutX="273.0" layoutY="404.0" onAction="#OpcoesPesModa" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Pesquisa de moda">
+            <Button fx:id="PesModaFuncio" layoutX="273.0" layoutY="404.0" onAction="#OpcoesPesModa" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Pesquisa de moda" textFill="WHITE">
               
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="RhFuncio" layoutX="273.0" layoutY="453.0" onAction="#OpcoesRH" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="RH">
+            <Button fx:id="RhFuncio" layoutX="273.0" layoutY="453.0" onAction="#OpcoesRH" prefHeight="40.0" prefWidth="225.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="RH" textFill="WHITE">
                
                <font>
                   <Font size="18.0" />
