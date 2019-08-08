@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.OpTecelagemBossController">
+   <children>
+      <Pane layoutY="1.0" prefHeight="550.0" prefWidth="750.0">
+         <children>
+            <ImageView fitHeight="551.0" fitWidth="750.0" layoutY="-1.0">
+               <image>
+                  <Image url="@fundo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="158.0" fitWidth="353.0" layoutX="-32.0" layoutY="-2.0">
+               <image>
+                  <Image url="@note.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="inicTeceB" graphicTextGap="5.0" layoutX="39.0" layoutY="492.0" onAction="#botaoInicial" prefHeight="17.0" prefWidth="69.0" style="-fx-opacity: 30;" text="Início" textAlignment="CENTER" textFill="#140202">
+              
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="voltTeceB" graphicTextGap="5.0" layoutX="663.0" layoutY="503.0" onAction="#OpcoesFuncio" prefHeight="17.0" prefWidth="69.0" style="-fx-opacity: 30;" text="Voltar" textAlignment="CENTER" textFill="#140202">
+               
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="fiosTece" layoutX="277.0" layoutY="275.0" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" promptText="Dados de fios">
+               
+            </ComboBox>
+            <ComboBox fx:id="maqTece" layoutX="277.0" layoutY="346.0" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" promptText="Dados do maquinário">
+               
+            </ComboBox>
+            <Button fx:id="cadasTeceB" layoutX="277.0" layoutY="210.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textFill="WHITE" text="Checar dados de cadastro">
+              
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

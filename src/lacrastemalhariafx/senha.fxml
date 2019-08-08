@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.SenhaController">
+   <children>
+      <Pane prefHeight="550.0" prefWidth="750.0">
+         <children>
+            <ImageView fitHeight="550.0" fitWidth="750.0">
+               <image>
+                  <Image url="@fundo.jpg" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="cpfSenha" layoutX="163.0" layoutY="240.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;">
+               
+               </PasswordField>
+            <TextField fx:id="digCpfSenha" editable="false" layoutX="89.0" layoutY="125.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Digite seu CPF">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               
+            </TextField>
+            <TextField fx:id="digNomeSenha" editable="false" layoutX="89.0" layoutY="316.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Digite seu nome">
+               
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="nomeSenha" layoutX="163.0" layoutY="381.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;">
+               
+            </PasswordField>
+            <Pane layoutX="467.0" layoutY="314.0" prefHeight="219.0" prefWidth="257.0" />
+            <Button fx:id="okzito" layoutX="237.0" layoutY="461.0" onAction="#OpcoesFuncio" text="Ok">
+               <font>
+                  <Font size="15.0" />
+               </font>
+             
+            </Button>
+            <Button fx:id="inicPesModaB" graphicTextGap="5.0" layoutX="30.0" layoutY="492.0" onAction="#botaoInicial" prefHeight="17.0" prefWidth="69.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" text="Início" textAlignment="CENTER" textFill="WHITE">
+               
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="voltSenha" graphicTextGap="5.0" layoutX="649.0" layoutY="495.0" onAction="#menuOpcoes" prefHeight="17.0" prefWidth="69.0" style="-fx-background-radius: 50; -fx-background-color: #b86786;" textAlignment="CENTER" textFill="WHITE">
+         
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
